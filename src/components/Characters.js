@@ -1,6 +1,10 @@
 import React from "react";
 
 const Characters = ({ characters }) => {
+  if (!characters) {
+    return '';
+  }
+
   return (
       <div className="row">
         {characters.map((item, index) => (
