@@ -15,6 +15,7 @@ const Characters = ({ characters }) => {
                 <h5 className="card-title">{item.name}</h5>
                 <hr />
                 <p>Species: {item.species}</p>
+                <p>Origin: {item.origin.name}</p>
                 <p>Location: {item.location.name}</p>
               </div>
             </div>
